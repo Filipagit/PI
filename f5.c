@@ -48,15 +48,25 @@ int procuraNum (int num, Aluno t[], int N){
 }   
 */
 
-//3
-void ordenaPorNum (Aluno t [], int N){
-    int i;
-    int menor=t[0].numero;
-    for(i=1;i<N;i++){
-        if(menor>t[i].numero){
-            swap(t[i],menor);
-        }
-    }
+//3 ordena por ordem crescente do seu numero
+void swap(int x, int y, Aluno t[]){
+    Aluno tmp=t[x];
+    t[x]=t[y];
+    t[y]=tmp;
 }
 
+void ordenaPorNum (Aluno t [], int N){
+    int i,j;
+    int troca;//serve para verificar se houve troca ou nao 
+    for(i=N-1;i>0;i--){
+        troca=0;
+    for(j=0;j<=i-1;j++){
+        if(t[j].numero>t[j+1].numero){
+          swap(j,j+1,t);
+          troca=1;//ocorreu troca;
+        }
+    }
+    if(!troca) break;//acabou
+    }
+}
 
