@@ -154,7 +154,7 @@ void pascal (int v[],int N){
 }
 
 
-//b escreve no ecran as N primeiras linhas do TP  nao seiii ver aula 
+//b escreve no ecran as N primeiras linhas do TP   
 void desenhaTriangulpP (int N){
   int ,vaux[N]
    pascal(vaux,N); //so chama uma vez o pascal 
