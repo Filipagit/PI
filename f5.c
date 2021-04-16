@@ -11,7 +11,6 @@ float teste;
 
 //1 calcula a nota de um aluno de acordo c pi conseguiii
 int nota (Aluno a){
-int nota (Aluno a){
  int j;
     float summini=0;
             for(j=0;j<6;j++){
