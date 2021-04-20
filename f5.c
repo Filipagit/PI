@@ -68,4 +68,65 @@ void ordenaPorNum (Aluno t [], int N){
     if(!troca) break;//acabou
     }
 }
+//alternativa
+void ordenaPorNum (Aluno t [], int N){
+    int i,j;
+    for(i=0;i<N-1;i++)
+      for(j=i+1;j<N;j++)
+      if(t[i].numero>t[j].numero) swap(t,i,j)
+}
+//4 preenche o array ind com os indices correspondentes a ordenacao do array 
+void criaIndPorNum(Aluno t [], int N, int ind[]){
+    Aluno tmp[N];
+    for(int i=0;i<N;i++)
+     tmp[i]=t[i];
+     ordenaPorNum(tmp,N);
+     for(int i=0;i<N;i++)
+     ind[i]=procuraNum(t[i].numero,tmp,N);
+}
+
+//5
+void imprimeTurma (int ind[], Aluno t[], int N){
+    Aluno tmp[N];
+    int i;
+    for(i=0;i<N;i++){
+      imprimeAluno(t+ind[i]);  
+}
+
+void imprimeAluno (Aluno *a){
+    int i;
+    printf ("%-5d %s (%d", a->numero, a->nome, a->miniT[0]);
+    for(i=1; i<6; i++) printf (", %d", a->miniT[i]);
+    printf (") %5.2f %d\n", a->teste, nota(*a));
+}
+
+//6
+int procuraNumalt (int num,int ind[], Aluno t[], int N){
+ return procuraNum(num,t,N);
+}
+
+//7 preenche ind c os indices correspondentes a ordenar por ordem crescente do nome do aluno 
+//ordena por nome 
+void ordenaPorNome(Aluno t[],int N){
+    int i,j;
+    for(i=0;i<N-1;i++)
+      for(j=0;j<N-1;j++)
+        if(strcmp(t[j].nome,t[j+1].nome)>0) swap(j,j+1,t);
+}
+int procuraNome (int nome, Aluno t[], int N){
+    int i;
+    for(i=0;i<N;i++){
+        if(nome==t[i].nome) return i;    
+    }
+    if(nome!=t[i].nome) return -1;
+}
+void criaIndPorNome (Aluno t [], int N, int ind[]){
+  Aluno tmp[N];
+    for(int i=0;i<N;i++)
+     tmp[i]=t[i];
+     ordenaPorNome(tmp,N);
+     for(int i=0;i<N;i++)
+     ind[i]=procuraNome(t[i].nome,tmp,N);
+}
+
 
