@@ -2,7 +2,7 @@
 #include<string.h>
 //1 Funções sobre strings
 
-//1 conta quantas vogais uma string tem conseguii
+//1 conta quantas vogais uma string tem 
 int contaVogais(char *s){
     int tam=strlen(s);
     int i;
@@ -103,7 +103,7 @@ int duplicaVogais(char *s){
 
 // 2 Arrays ordenados 
 
-//1 testa se um array esta ordenado conseguiii
+//1 testa se um array esta ordenado 
 int ordenado(int v[], int N){
     int i;
     for(i=0;i<N-1;i++){
@@ -120,7 +120,7 @@ int main(){
 }
 */
 
-//2 recebe dois arrays ordenados a e b e os funde num so conseguii
+//2 recebe dois arrays ordenados a e b e os funde num so 
 void merge (int a[], int na, int b[], int nb, int r[]){
     int ia,ib,i=0;
     while(ia!=na && ib!=nb){

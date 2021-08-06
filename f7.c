@@ -17,7 +17,7 @@ void libertaLista (Palavras l){
     }
 }
 
-//2  conta o nr de pal dif lista nao tel pal rep conseguiii
+//2  conta o nr de pal dif lista nao tel pal rep 
 int quantasP(Palavras l){
     int conta=0;
     while(l!=NULL){
@@ -27,7 +27,7 @@ int quantasP(Palavras l){
     return conta;
 } 
 
-//3 escreve no ecra uma por linha tds as palavras armazenadas e o num de ocorrencias conseguiii 
+//3 escreve no ecra uma por linha tds as palavras armazenadas e o num de ocorrencias 
 void listaPal (Palavras l){
      while(l!=NULL){
          printf("%s\n",l->palavra,l->ocorr);

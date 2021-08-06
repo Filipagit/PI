@@ -1,7 +1,7 @@
 #include <stdio.h>
 //1 Estados e Atribuições 
 
-/* 1 conseguiii
+/* 1 
 int x, y;
 x = 3; y = x+1;
 x = x*y; y = x + y;
@@ -10,7 +10,7 @@ printf("%d %d\n", x, y);
 1. x=3 y=4 
 2.x=12 y=16
 
-/2 conseguiii
+/2 
 int x, y;
 x = 0;
 printf ("%d %d\n", x, y);
@@ -32,7 +32,7 @@ printf ("%c %d\n", c, c);
 4. a 66 c 50
 5. b 98
 
-/4 conseguiii
+/4 
 int x, y;
 x = 200; y = 100;
 x = x+y; y = x-y; x = x-y;
@@ -44,7 +44,7 @@ printf ("%d %d\n", x, y);
 
 //2 Estruturas de controlo 
 
-//1a conseguiii
+//1a 
 int x, y;
 x = 3; y = 5;
 if (x > y)
@@ -53,7 +53,7 @@ printf ("%d %d\n", x, y);
 
 1.x=3 y=5
 
-//b conseguiii
+//b 
 int x, y;
 x = y = 0;
 while (x != 11) {
@@ -74,7 +74,7 @@ printf ("%d %d\n", x, y);
 11.x=10 y=55
 12.x=11 y=66
 
-//c conseguiii
+//c 
 int i;
 for (i=0; (i<20) ; i++)
 if (i%2 == 0) putchar (’_’);
@@ -116,7 +116,7 @@ return 0;
 
 //3 Programas iterativos 
 
-//1 desenhar um quadrado de dimensão 5 conseguuii
+//1 desenhar um quadrado de dimensão 5 
 /*
 #####
 #####
@@ -135,7 +135,7 @@ void quadrado(int n){
     }
 }
 
-//2 quaseee
+//2 
 
 /*
 #_#_#

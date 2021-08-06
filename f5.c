@@ -9,7 +9,7 @@ int miniT [6];
 float teste;
 } Aluno;
 
-//1 calcula a nota de um aluno de acordo c pi conseguiii
+//1 calcula a nota de um aluno de acordo c pi 
 int nota (Aluno a){
  int j;
     float summini=0;
@@ -24,7 +24,7 @@ int nota (Aluno a){
             else return 0;
 }
 
-//2 conseguiiii
+//2 
 int procuraNum (int num, Aluno t[], int N){
     int i;
     for(i=0;i<N;i++){

@@ -5,7 +5,7 @@
 #include <assert.h>
 
 
-//1 imprime o maior elemento da sequência conseguiii
+//1 imprime o maior elemento da sequência 
 int maior(){
     int nummaior=0;
     int lido;
@@ -19,7 +19,7 @@ printf("%d\n",nummaior);
 return nummaior;
 }
 
-//2 conseguiii
+//2 
 void media(){
     int lido;
     int n=0;
@@ -33,7 +33,7 @@ void media(){
     printf("%d\n",sum/n);
 }
 
-// 3 conseguiii
+// 3 
 int segelemmaior(){
  int maior=0;
     int segmaior=0;
@@ -51,7 +51,7 @@ int segelemmaior(){
         return 0;
 }
 
-//4 conseguiii
+//4 
 int bitsUm (unsigned int n){
     int conta=0;
     while(n!=0){
@@ -62,7 +62,7 @@ int bitsUm (unsigned int n){
 }
 
 
-//5 calcula o nr de bits a 0 no final conseguiii
+//5 calcula o nr de bits a 0 no final 
 int trailingZ(unsigned int n){
     int conta=0;
     while(n!=0){
@@ -80,7 +80,7 @@ int main(){
 }
 */ 
 
-//6 conseguiii
+//6 
 int qDig(unsigned int n){
     int conta=0;
     while(n!=0){
@@ -91,7 +91,7 @@ int qDig(unsigned int n){
     return conta;
 }
 
-//7 concatena s2 a s1 conseguiii
+//7 concatena s2 a s1 
 char *mystrcat(char s1[], char s2[]) {
    int i,j;
     for(i=0;s1[i]!='\0';i++);
@@ -102,7 +102,7 @@ char *mystrcat(char s1[], char s2[]) {
     return s1;
 }
 
-//8 copia source para dest retornando dest conseguii
+//8 copia source para dest retornando dest 
 char *mystrcpy(char s1[], const char s2[]) {
     int i;
     for(i=0;s2[i]!='\0';i++){
@@ -134,7 +134,7 @@ for(i = 0, j = 0; s1[i] != '\0' && s2[j] != '\0'; i++)
     return NULL;
 }
 
-//11 inverte uma string conseguii
+//11 inverte uma string 
 void strrev(char s[]){
      int i, tmp;
     int tam=strlen(s)-1;
@@ -146,7 +146,7 @@ void strrev(char s[]){
     }
 }
 
-//12 retira todas as vogais de uma string conseguiii
+//12 retira todas as vogais de uma string 
 
 void removeindice(char v[], int n){
     int j;
@@ -165,7 +165,7 @@ void strnoV(char s[]){
     }
 }
 
-//13 quasee
+//13 
 // txt="liberdade, igualdade e fraternidade" truncW (txt, 4)="libe igua e frat".
 void removeindice(char v[], int n){
     int j;
@@ -189,7 +189,7 @@ void truncW (char t[], int n){
     }
 }
 
-//14 retorna o caracter mais frequente conseguiii
+//14 retorna o caracter mais frequente 
 int contachar(char s[],char a){
     int i;
     int conta=0;
@@ -212,7 +212,7 @@ char charMaisfreq(char s[]){
     return maxf;
 }
 
-//15 conseguiii
+//15 
 int iguaisConsecutivos (char s[]) {
      int i;
     int consec=1;
@@ -227,7 +227,7 @@ int iguaisConsecutivos (char s[]) {
     return maxconsec;
 }
 
-//16 nao ta a dar 
+//16 nao esta a dar 
 int difConsecutivos (char s[]){
     int dif=0;
     int maxdif=0;

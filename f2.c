@@ -1,5 +1,5 @@
 
-//1 conseguiii
+//1 
 float multInt1(int n, float m){
     float r=0;
     int i;
@@ -9,7 +9,7 @@ float multInt1(int n, float m){
     return r;
 }
 
-//2 conseguiiii
+//2 
 float multInt2(int n,float m){
     float r=0;
     while(n>0){
@@ -35,7 +35,7 @@ int mdc1(int a, int b){
     return ans;
 }
 
-//4 conseguiii
+//4 
 int mdc2(int a,int b){
     while(a!=0 && b!=0){
         if(a>b)a=a-b;
@@ -46,7 +46,7 @@ int mdc2(int a,int b){
     else return a;
 }
 
-//5 conseguii
+//5 
 int mdc3(int a,int b){
   while(a!=0 && b!=0){
       if(a>b) a%=b;
@@ -57,7 +57,7 @@ int mdc3(int a,int b){
 }
 
 //6
-//a conseguii
+//a 
 int fib1(int n){
     if(n==1 ||n==2) return 1;
     else return fib(n-1) + fib(n-2);

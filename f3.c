@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //1
-//a conseguiii
+//a 
 /*int main () {
 int x [15] = {1, 2, 3, 4, 5,
 6, 7, 8, 9,10,
@@ -44,14 +44,14 @@ return 0;
 resp:13
 */
 
-//2 x=3 y=5 => x=5 y=3 conseguiiii
+//2 x=3 y=5 => x=5 y=3 
 void swapM(int *x,int *y){
     int tmp=*x;
     *x=*y;
     *y=tmp;
 }
 
-//3 troca o valor das posicoes i e j  conseguuiii
+//3 troca o valor das posicoes i e j  
 void swap(int v[], int i, int j){
     int tmp;
     tmp=v[i];
@@ -67,7 +67,7 @@ int main(){
     return 0;
 }
 */
-//4 calcula a soma dos elementos de um vetor  conseguiiii
+//4 calcula a soma dos elementos de um vetor  
 int soma(int v[],int N){
     int i;
     int sum=0;
@@ -84,7 +84,7 @@ int main(){
 }
 */
 
-//5 versao 1 conseguiiii
+//5 versao 1 
 void inverteArray(int v[], int N){
     int i,j=N-1;
     for(i=0;i<N && i<j;i++){
@@ -93,7 +93,7 @@ void inverteArray(int v[], int N){
     }
 } 
 
-//5 versao2 conseguiiiiiiiii
+//5 versao2 
 void inverteArray2(int v[], int N){
     int i,j=N-1;
     for(i=0;i<N && i<j;i++){
@@ -117,7 +117,7 @@ int main(){
 }
 */
 
-//6 coloca em *m o maximo conseguii
+//6 coloca em *m o maximo 
 int maximum(int v[],int N, int *m){
      int i,maior=0; //maior=v[0]
      for(i=0;i<N;i++){
@@ -129,7 +129,7 @@ int maximum(int v[],int N, int *m){
      return maior;
 }
 
-//7 preenche o vetor c os quadrados dos N primeiros nrs naturais conseguiii
+//7 preenche o vetor c os quadrados dos N primeiros nrs naturais 
 void quadrados(int q[], int N){
    int i;
    for(i=0;i<N;i++){
