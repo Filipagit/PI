@@ -1,4 +1,3 @@
-
 //exercicio 1 
 struct staticStack {
 int sp;
@@ -24,11 +23,21 @@ int Spush (SStack s, int x){
    else  return 1;
 }
 
+//alternativa
+int Spush (SStack s, int x){
+    if(s->sp==Max) return 1;
+    else{
+        s->values[s->sp]=x;
+        s->sp++;
+    }  
+     return 0;
+}
+
 //d) remove da stack o elemento do topo 
 int Spop (SStack s, int *x){
     if(SisEmpty(s)==True) return 1;
-    else{
-    *x=s->values[--s->sp];
+    s->sp--;
+    *x=s->values[s->sp];
     return 0;
     }
 }
